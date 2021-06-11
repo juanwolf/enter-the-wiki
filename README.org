@@ -1,0 +1,29 @@
+* Enter the wiki
+
+  A simple implementation of a GraphQL API to query for guns and other lovely stuff from enter-the-gungeon.
+
+  The aim is to build that knowledge base as I dive into the gungeon (and TS/GraphQL).
+
+** How?
+
+*** To run
+
+    #+BEGIN_SRC
+    docker build . -t enter-the-wiki:0.1.0
+    docker run enter-the-wiki:0.1.0
+    #+END_SRC
+
+
+*** To develop
+
+   #+BEGIN_SRC sh
+   npm install
+   npm run dev
+   #+END_SRC
+
+   Thanks to ts-node-dev, the server will auto reload when a file will get updated.
+
+
+** License
+
+ In case you want to buy the rights of this incredible, the license is MIT so no worries about it.
